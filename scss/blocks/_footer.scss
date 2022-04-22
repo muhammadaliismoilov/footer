@@ -1,0 +1,131 @@
+.footer{
+
+    &__top{
+        display: flex;
+        margin-top: 105px;
+        justify-content: space-between;
+    }
+
+    &__left{
+        max-width: 380px;
+    }
+    &__right{
+        display: flex;
+    }
+    &__desc{
+        margin: 0;
+        padding: 0;
+        max-width: 300px;
+        margin-top: 12px;
+    }
+    &__sitemap-list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    &__sitemap-list + &__sitemap-list{
+        margin-left: 151px;
+    }
+    &__sitemap-heading{
+        margin-bottom:25px
+    }
+    &__sitemap-item{
+        max-width: 163px;
+    }
+    &__sitemap-item + &__sitemap-item{
+        margin-top: 15px;
+    }
+    &__sitemap-heading{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    // &__sitemap-item{
+
+    // }
+    &__sitemap-link{
+        // max-width: 163px;
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        opacity: 0.7;
+    }
+    &__bottom{
+        margin-top: 50px;
+    }
+    &__bottom-list{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__bottom-item + &__bottom-item{
+
+        margin-left: 50px;
+
+    }
+    &__bottom-link{
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #000000;
+
+    }
+    &__span{
+        border-bottom: 5px solid rgba(0, 0, 0, 0.3);
+    }
+    &__bottom-low{
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    &__pro{
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: rgba(0, 0, 0, 0.6);
+        opacity: 0.7;
+    }
+    &__proo{
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: rgba(0, 0, 0, 0.6);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
